@@ -1,0 +1,36 @@
+{
+  "name": "@galen/url-shortener",
+  "version": "1.0.0",
+  "description": "A url shortener API",
+  "keywords": [
+    "nodejs",
+    "express",
+    "url-shortener"
+  ],
+  "license": "ISC",
+  "author": "Galen Mike",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/helmet": "^0.0.48",
+    "@types/morgan": "^1.9.10",
+    "@types/nanoid": "^2.1.0",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
