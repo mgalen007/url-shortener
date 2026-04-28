@@ -7,8 +7,8 @@ export const swaggerDocument = {
   },
   servers: [
     {
-      url: "http://localhost:3000",
-      description: "Local development server",
+      url: "https://url-shortener-lx9i.onrender.com",
+      description: "Production server",
     },
   ],
   tags: [
